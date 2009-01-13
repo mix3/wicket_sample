@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Wicket Quickstart Archetype Homepage</title>
+    </head>
+    <body>
+        <form wicket:id="form">
+            <p>title:<br /><input type="text" wicket:id="title" /></p>
+            <p>contents:<br /><textarea wicket:id="contents"></textarea></p>
+            <p><input type="submit" wicket:id="submit" value="submit"></p>
+        </form>
+        <table border="1">
+            <tr wicket:id="articleList">
+                <td><span wicket:id="title">title</span>:</td>
+                <td><span wicket:id="contents">contents</span></td>
+            </tr>
+        </table>
+    </body>
+</html>
